@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">churchapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add Person</string>
+    <string name="action_search">Search Person</string>
+    <string name="save">Guardar</string>
+    <string name="telefono">Telefono</string>
+    <string name="edad">Edad</string>
+    <string name="direccion">Direccion</string>
+    <string name="fecha">Fecha</string>
+    <string name="diaprefe">Dia</string>
+    <string name="motivo">Motivo</string>
+</resources>

@@ -1,0 +1,32 @@
+#
+# generated on 2019/06/11 05:02:58
+#
+# --table-start--
+dataClass=com.church.churchapp.databasechurch.members
+tableName=miembros
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nombre
+# --field-end--
+# --field-start--
+fieldName=numerote
+# --field-end--
+# --field-start--
+fieldName=operadora
+# --field-end--
+# --field-start--
+fieldName=diasemana
+# --field-end--
+# --field-start--
+fieldName=nombreseguidor
+# --field-end--
+# --field-start--
+fieldName=tipomiembro
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

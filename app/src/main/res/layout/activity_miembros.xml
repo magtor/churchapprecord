@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewFecha"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="12dp"
+            android:text="Fecha:"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextfecha"
+            android:layout_width="160dp"
+            android:layout_height="39dp"
+            android:layout_alignStart="@+id/textViewFecha"
+            android:layout_alignLeft="@+id/textViewFecha"
+            android:layout_marginStart="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="34dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/buttonFecha"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextfecha"
+            android:layout_alignLeft="@+id/editTextfecha"
+            android:layout_marginStart="191dp"
+            android:layout_marginLeft="191dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/fecha"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewNombres"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="66dp"
+            android:text="Nombres:"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNombres"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/textViewNombres"
+            android:layout_alignStart="@+id/textViewNombres"
+            android:layout_marginTop="85dp"
+            android:ems="10"/>
+        <TextView
+            android:id="@+id/textViewApellidos"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
+            android:text="Apellidos"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editApellidos"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/textViewApellidos"
+            android:layout_alignStart="@+id/textViewApellidos"
+            android:layout_marginTop="138dp"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/textViewconEdad"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="175dp"
+            android:text="Edad"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/textViewconEdad"
+            android:layout_alignStart="@+id/textViewconEdad"
+            android:layout_marginTop="196dp"
+            android:ems="10"
+            android:text="@string/edad" />
+        <RadioButton
+            android:id="@+id/radioButtonVisita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Visita" />
+        <RadioButton
+            android:id="@+id/radioButtonAcepto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Acepto" />
+        <RadioButton
+            android:id="@+id/radioButtonRecon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Recon" />
+        <RadioButton
+            android:id="@+id/radioButtonBau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="226dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Bautiz" />
+        <TextView
+            android:id="@+id/textViewconTel"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="285dp"
+            android:text="Telefono"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editTextTele"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="305dp"
+            android:ems="10"
+            android:text="@string/telefono" />
+        <TextView
+            android:id="@+id/textViewconOper"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="285dp"
+            android:text="Operadora"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/radioButtonClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Claro" />
+        <RadioButton
+            android:id="@+id/radioButtonMovi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="197dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="MoviStart" />
+        <TextView
+            android:id="@+id/textViewconEciv"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="345dp"
+            android:text="E.Civil"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/radioButtonSol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="46dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Soltero" />
+        <RadioButton
+            android:id="@+id/radioButtonCasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="126dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Casado" />
+        <RadioButton
+            android:id="@+id/radioButtonDivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="206dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Divorciado" />
+
+        <TextView
+            android:id="@+id/textViewconDirec"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="380dp"
+            android:text="Direccion"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editDireccion"
+            android:inputType="textMultiLine"
+            android:layout_width="310dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="415dp"
+            android:ems="10"
+            android:text="@string/direccion" />
+
+        <TextView
+            android:id="@+id/textViewporque"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="464dp"
+            android:text="Deseamos LLamarle"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewdiaprefe"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="482dp"
+            android:text="Dia Que Prefiere:"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editdiaprefe"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="492dp"
+            android:ems="10"
+            android:text="dia prefe" />
+        <Button
+            android:id="@+id/buttondiaprefe"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextfecha"
+            android:layout_alignLeft="@+id/editTextfecha"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="492dp"
+            android:text="@string/diaprefe"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewhorario"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="482dp"
+            android:text="Que Horario:"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/radioButtonAm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="503dp"
+            android:layout_marginLeft="197dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="AM" />
+        <RadioButton
+            android:id="@+id/radioButtonPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="503dp"
+            android:layout_marginLeft="250dp"
+            android:textColor="#0c0505"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="PM" />
+        <TextView
+            android:id="@+id/textViewdmotivo"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="530dp"
+            android:text="Area Oracion:"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewdmotivo1"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="555dp"
+            android:text="Area Oracion:"
+            android:textColor="#0c0505"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/buttonMotivo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextfecha"
+            android:layout_alignLeft="@+id/editTextfecha"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="540dp"
+            android:text="@string/motivo"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonContinuar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="650dp"
+            android:text="@string/save"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+

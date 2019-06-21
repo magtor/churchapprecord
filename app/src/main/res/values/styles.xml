@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorGreen1</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="colorPrimary">@color/colorYellow</item>
+        <item name="android:textColorPrimary">@color/colorGreen2</item>
+        <item name="android:windowBackground">@color/colorbackGround</item>
+        <item name="android:navigationBarColor">@color/colorPurple</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="ToolbarTheme" parent="AppTheme" >
+    </style>
+
+</resources>

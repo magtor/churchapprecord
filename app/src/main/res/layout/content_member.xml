@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/members1"
+    tools:context="com.church.churchapp.uichurch.miembros"    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fecha"
+        android:id="@+id/textViewFecha"
+        android:layout_alignBottom="@+id/editFecha"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0c0505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:id="@+id/editFecha"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Apellidos:"
+        android:id="@+id/textView27"
+        android:textColor="#0c0505"
+        android:layout_below="@+id/editFecha"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editApellidos"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignLeft="@+id/editEdad"
+        android:layout_alignStart="@+id/editEdad" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Edad:"
+        android:id="@+id/textView28"
+        android:textStyle="bold"
+        android:textColor="#0c0505"
+        android:layout_alignBottom="@+id/editEdad"
+        android:layout_alignRight="@+id/textView27"
+        android:layout_alignEnd="@+id/textView27" />
+
+    <EditText
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEdad"
+        android:layout_below="@+id/editApellidos"
+        android:layout_alignRight="@+id/editFecha"
+        android:layout_alignEnd="@+id/editFecha" />
+
+
+
+</RelativeLayout>
+
